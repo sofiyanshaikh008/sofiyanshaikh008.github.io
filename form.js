@@ -20,13 +20,13 @@ document.querySelector("form").addEventListener("submit", (e) => {
         <b>Message : </b>${message}
         <br`;
 
-    Email.send({
-        SecureToken: "bb6a23ab-ed6d-47e0-b835-11c64f39b65a",
-        To: "faltu0918@gmail.com",
-        From: "faltu0918@gmail.com",
-        Subject: "Mail from : " + email,
-        Body: eBody,
-    }).then((message) => alert(message));
+        Email.send({
+            SecureToken: "2a2756aa-5a84-44ce-91ef-554d816d5bb4",
+            To: "sufismtp@gmail.com",
+            From: "sufismtp@gmail.com",
+            Subject: "Mail from : " + email,
+            Body: eBody,
+        }).then((message) => alert(message));
 
     document.querySelector("#name").value = "";
     document.querySelector("#email").value = "";
